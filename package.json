@@ -1,0 +1,11 @@
+{
+  "name": "cron-90branding",
+  "version": "1.0.0",
+  "description": "Scheduled data sync for 90branding.dev",
+  "scripts": {
+    "sync": "node scripts/90branding-sync.js"
+  },
+  "dependencies": {
+    "pg": "^8.11.3"
+  }
+}
